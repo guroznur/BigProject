@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\C#\\ReCapProject\\Business\\Business.csproj": {
+    "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\ReCapProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\C#\\ReCapProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\oznur\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\ReCapProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oznur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\C#\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\C#\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -47,6 +47,18 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -68,14 +80,14 @@
         }
       }
     },
-    "C:\\C#\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\C#\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\oznur\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\ReCapProject\\ConsoleUI\\obj\\",
+        "outputPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oznur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,14 +104,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\C#\\ReCapProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\C#\\ReCapProject\\Business\\Business.csproj"
+              "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Business\\Business.csproj"
               },
-              "C:\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Core\\Core.csproj"
               },
-              "C:\\C#\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\C#\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -132,14 +147,14 @@
         }
       }
     },
-    "C:\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj",
-        "projectName": "DataAccess",
-        "projectPath": "C:\\C#\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\oznur\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oznur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,11 +170,7 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {
-              "C:\\C#\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\C#\\ReCapProject\\Entities\\Entities.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -172,6 +183,26 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -193,14 +224,14 @@
         }
       }
     },
-    "C:\\C#\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\ReCapProject\\Entities\\Entities.csproj",
-        "projectName": "Entities",
-        "projectPath": "C:\\C#\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\oznur\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oznur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -216,7 +247,83 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Core\\Core.csproj"
+              },
+              "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Abp": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\oznur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oznur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\oznur\\Documents\\GitHub\\BigProject\\ReCapProject\\Core\\Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
