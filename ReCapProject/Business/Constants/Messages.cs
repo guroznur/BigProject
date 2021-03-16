@@ -1,6 +1,7 @@
 ﻿using Entities.Concrete;
 using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -39,7 +40,20 @@ namespace Business.Constants
 
 
         public static string CarNameInvalid = "Araba ismi geçersiz";
-        internal static string MaintenanceTime ="Sistem bakımda";
-        internal static string CarsListed = "Arababalar listelendi";
+        public static string MaintenanceTime ="Sistem bakımda";
+        public static string CarsListed = "Arababalar listelendi";
+
+        public static string CarImagesDeleted = "Resim silindi";
+        public static string CarImageUpdated = "Resim güncellendi";
+        public static string CarImageAdded = "Resim eklendi";
+        public static string CarNameAlreadyExists = "Bu İsimde başka bir araba mevcut";
+        public static string  AuthorizationDenied = "Yetkiniz yok";
+
+        public static string UserRegistered = "Kullanıcı kaydedildi";
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string PasswordError = "Şifre hatalı";
+        public static string UserAlreadyExists = "Bu kullanıcı zaten mevcut";
+        public static string AccessTokenCreated = "Access token başarıyla oluşturuldu";
+        public  static string SuccessfulLogin = "Sisteme giriş başarılı";
     }
 }

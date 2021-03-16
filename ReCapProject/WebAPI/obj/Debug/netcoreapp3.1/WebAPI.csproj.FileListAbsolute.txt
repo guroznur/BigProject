@@ -100,3 +100,5 @@ C:\Users\oznur\Documents\GitHub\BigProject\ReCapProject\WebAPI\obj\Debug\netcore
 C:\Users\oznur\Documents\GitHub\BigProject\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.dll
 C:\Users\oznur\Documents\GitHub\BigProject\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
 C:\Users\oznur\Documents\GitHub\BigProject\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+C:\Users\oznur\Documents\GitHub\BigProject\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\oznur\Documents\GitHub\BigProject\ReCapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
